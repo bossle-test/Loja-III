@@ -1,0 +1,7 @@
+git config --global user.name "bossle-test"
+git config --global user.email "bosslefrontend@gmail.com"
+git config --global core.editor "nano"
+git config --global core.autocrlf input
+git config --list
+git config --global credential.helper cache
+ssh-keygen -t ed25519 -C "bosslefrontend@gmail.com"
